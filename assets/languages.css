@@ -1,0 +1,99 @@
+.code-card .language.python {
+    background-color: #3776AB; /* A slightly lighter, more vibrant Python blue */
+    color: white;
+}
+
+.code-card .language.javascript {
+    background-color: #F7DF1E; /* A vibrant JavaScript yellow */
+    color: black;
+}
+
+.code-card .language.r {
+    background-color: #1997B2; /* A distinct teal/cyan for R, different from Python blue */
+    color: white;
+}
+
+.code-card .language.css {
+    background-color: #1572B6; /* A standard CSS blue */
+    color: white;
+}
+
+.code-card .language.html {
+    background-color: #E34F26; /* A common HTML orange */
+    color: white;
+}
+
+.code-card .language.dart {
+    background-color: #0175C2; /* Dart's signature blue */
+    color: white;
+}
+
+.code-card .language.lua {
+    background-color: #2C2D72; /* A deep Lua purple/blue */
+    color: white;
+}
+
+.code-card .language.bash {
+    background-color: #4EAA25; /* A common colour for terminal/bash */
+    color: white;
+}
+
+.code-card .language.java {
+    background-color: #007396; /* Java blue */
+    color: white;
+}
+
+.code-card .language.cpp {
+    background-color: #00599C; /* C++ dark blue */
+    color: white;
+}
+
+.code-card .language.csharp {
+    background-color: #239120; /* C# green */
+    color: white;
+}
+
+.code-card .language.go {
+    background-color: #00ADD8; /* Go blue */
+    color: white;
+}
+
+.code-card .language.ruby {
+    background-color: #CC342D; /* Ruby red */
+    color: white;
+}
+
+.code-card .language.php {
+    background-color: #777BB4; /* PHP purple */
+    color: white;
+}
+
+.code-card .language.typescript {
+    background-color: #3178C6; /* TypeScript blue */
+    color: white;
+}
+
+.code-card .language.swift {
+    background-color: #FA7343; /* Swift orange */
+    color: white;
+}
+
+.code-card .language.kotlin {
+    background-color: #7F52FF; /* Kotlin purple */
+    color: white;
+}
+
+.code-card .language.rust {
+    background-color: #DEA584; /* Rust orange/brown */
+    color: black;
+}
+
+.code-card .language.scala {
+    background-color: #DC322F; /* Scala red */
+    color: white;
+}
+
+.code-card .language.sql {
+    background-color: #336791; /* A common SQL blue */
+    color: white;
+}

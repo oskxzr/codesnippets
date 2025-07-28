@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Lexend%20Mega:700|Public%20Sans:400");
+
+:root {
+	--text-50: rgb(242, 242, 242);
+	--text-100: rgb(230, 230, 230);
+	--text-200: rgb(204, 204, 204);
+	--text-300: rgb(179, 179, 179);
+	--text-400: rgb(153, 153, 153);
+	--text-500: rgb(128, 128, 128);
+	--text-600: rgb(102, 102, 102);
+	--text-700: rgb(77, 77, 77);
+	--text-800: rgb(51, 51, 51);
+	--text-900: rgb(26, 26, 26);
+	--text-950: rgb(13, 13, 13);
+
+	--background-50: rgb(242, 242, 242);
+	--background-100: rgb(230, 230, 230);
+	--background-200: rgb(204, 204, 204);
+	--background-300: rgb(179, 179, 179);
+	--background-400: rgb(153, 153, 153);
+	--background-500: rgb(128, 128, 128);
+	--background-600: rgb(102, 102, 102);
+	--background-700: rgb(77, 77, 77);
+	--background-800: rgb(51, 51, 51);
+	--background-900: rgb(26, 26, 26);
+	--background-950: rgb(13, 13, 13);
+
+	--primary-50: rgb(241, 234, 250);
+	--primary-100: rgb(227, 214, 245);
+	--primary-200: rgb(199, 172, 236);
+	--primary-300: rgb(171, 131, 226);
+	--primary-400: rgb(142, 90, 216);
+	--primary-500: rgb(114, 48, 207);
+	--primary-600: rgb(91, 39, 165);
+	--primary-700: rgb(69, 29, 124);
+	--primary-800: rgb(46, 19, 83);
+	--primary-900: rgb(23, 10, 41);
+	--primary-950: rgb(11, 5, 21);
+
+	--secondary-50: rgb(230, 254, 245);
+	--secondary-100: rgb(205, 254, 235);
+	--secondary-200: rgb(155, 253, 215);
+	--secondary-300: rgb(105, 252, 196);
+	--secondary-400: rgb(55, 251, 176);
+	--secondary-500: rgb(5, 250, 156);
+	--secondary-600: rgb(4, 200, 125);
+	--secondary-700: rgb(3, 150, 94);
+	--secondary-800: rgb(2, 100, 62);
+	--secondary-900: rgb(1, 50, 31);
+	--secondary-950: rgb(1, 25, 16);
+
+	--accent-50: rgb(230, 244, 255);
+	--accent-100: rgb(205, 234, 254);
+	--accent-200: rgb(155, 212, 253);
+	--accent-300: rgb(104, 191, 253);
+	--accent-400: rgb(54, 169, 252);
+	--accent-500: rgb(4, 148, 251);
+	--accent-600: rgb(3, 118, 201);
+	--accent-700: rgb(2, 89, 151);
+	--accent-800: rgb(2, 59, 100);
+	--accent-900: rgb(1, 30, 50);
+	--accent-950: rgb(0, 15, 25);
+}
+body {
+	font-family: "Public Sans";
+	font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: "Lexend Mega";
+	font-weight: 700;
+}
+
+html {
+	font-size: 100%;
+} /* 16px */
+
+h1 {
+	font-size: 4.21rem; /* 67.36px */
+}
+
+h2 {
+	font-size: 3.158rem; /* 50.56px */
+}
+
+h3 {
+	font-size: 2.369rem; /* 37.92px */
+}
+
+h4 {
+	font-size: 1.777rem; /* 28.48px */
+}
+
+h5 {
+	font-size: 1.333rem; /* 21.28px */
+}
+
+small {
+	font-size: 0.75rem; /* 12px */
+}

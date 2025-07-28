@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>codesnippets</title>
+
+		<script src="/static/jquery-3.7.1.min.js"></script>
+		<script src="/static/prism.js"></script>
+		<link rel="stylesheet" href="/static/prism.css" />
+
+		<link rel="stylesheet" href="/assets/{{ASSET_ID}}/theme.css" />
+		<link rel="stylesheet" href="/assets/{{ASSET_ID}}/index.css" />
+		<link rel="stylesheet" href="/assets/{{ASSET_ID}}/languages.css" />
+
+		<script src="/assets/{{ASSET_ID}}/index.js"></script>
+
+		<link rel="icon" type="image/png" href="/static/favicon/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/svg+xml" href="/static/favicon/favicon.svg" />
+		<link rel="shortcut icon" href="/static/favicon/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/static/favicon/apple-touch-icon.png" />
+		<meta name="apple-mobile-web-app-title" content="codesnippets" />
+		<link rel="manifest" href="/static/favicon/site.webmanifest" />
+	</head>
+	<body>
+		<div id="main-container">
+			<h1>&lt;codesnippets&gt;</h1>
+
+			<div class="input-wrapper-wrapper">
+				<div class="input-wrapper">
+					<input type="text" name="" id="main-input" placeholder="What do you want?" />
+				</div>
+				<button id="generate">
+					<div class="svg-wrapper">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="24"
+							height="24"
+							viewBox="0 0 24 24"
+							fill="none"
+							stroke="currentColor"
+							stroke-width="2"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							class="loader"
+						>
+							<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+							<path d="M12 3a9 9 0 1 0 9 9"></path>
+						</svg>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="#000000"
+							width="800px"
+							height="800px"
+							viewBox="0 0 32 32"
+						>
+							<title />
+
+							<g data-name="Layer 2" id="Layer_2">
+								<path
+									d="M18,11a1,1,0,0,1-1,1,5,5,0,0,0-5,5,1,1,0,0,1-2,0,5,5,0,0,0-5-5,1,1,0,0,1,0-2,5,5,0,0,0,5-5,1,1,0,0,1,2,0,5,5,0,0,0,5,5A1,1,0,0,1,18,11Z"
+								/>
+
+								<path
+									d="M19,24a1,1,0,0,1-1,1,2,2,0,0,0-2,2,1,1,0,0,1-2,0,2,2,0,0,0-2-2,1,1,0,0,1,0-2,2,2,0,0,0,2-2,1,1,0,0,1,2,0,2,2,0,0,0,2,2A1,1,0,0,1,19,24Z"
+								/>
+
+								<path
+									d="M28,17a1,1,0,0,1-1,1,4,4,0,0,0-4,4,1,1,0,0,1-2,0,4,4,0,0,0-4-4,1,1,0,0,1,0-2,4,4,0,0,0,4-4,1,1,0,0,1,2,0,4,4,0,0,0,4,4A1,1,0,0,1,28,17Z"
+								/>
+							</g>
+						</svg>
+					</div>
+				</button>
+			</div>
+
+			<div id="content-container">
+				<div id="generation-container" class="big-flex"></div>
+				<div id="snippets-container">
+					<div id="no-results" class="displaynone big-flex">
+						<h4>No results</h4>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="#000000"
+							width="800px"
+							height="800px"
+							viewBox="0 0 24 24"
+							data-name="Layer 1"
+						>
+							<path
+								d="M9,11.71l.29-.3.29.3a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42l-.3-.29.3-.29A1,1,0,0,0,9.54,8.29l-.29.3L9,8.29A1,1,0,1,0,7.54,9.71l.3.29-.3.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0Zm-.6,3.62a1,1,0,0,0-.13,1.4,1,1,0,0,0,1.41.13,3.76,3.76,0,0,1,4.72,0,1,1,0,0,0,1.41-.13,1,1,0,0,0-.13-1.4A5.81,5.81,0,0,0,8.36,15.33ZM12,2A10,10,0,1,0,22,12,10,10,0,0,0,12,2Zm0,18a8,8,0,1,1,8-8A8,8,0,0,1,12,20ZM17,8.29a1,1,0,0,0-1.42,0l-.29.3L15,8.29a1,1,0,0,0-1.42,1.42l.3.29-.3.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0l.29-.3.29.3a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42l-.3-.29.3-.29A1,1,0,0,0,17,8.29Z"
+							/>
+						</svg>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
