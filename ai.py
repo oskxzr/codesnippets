@@ -53,6 +53,8 @@ Keep the code as brief and minimal as possible. If a one-liner is sufficient, re
 
 If there are multiple standard ways to solve it, return multiple answers.
 
+Your response does NOT have to be one line. For readability, please include line breaks in your answer. Try to keep comments to a minimum.
+
 Only return the JSON object matching this structure:
 
 {
